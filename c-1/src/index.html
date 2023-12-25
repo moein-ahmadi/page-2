@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <title>Html</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="text-3xl font-bold">Topic</div>
+      <div>
+        <ul class="lg:flex md:hidden hidden items-center gap-5">
+          <li class="header-ul-li">HOME</li>
+          <li class="header-ul-li">BROWSE TOPICS</li>
+          <li class="header-ul-li">HOW IT WORKS</li>
+          <li class="header-ul-li">FAQS</li>
+          <li class="header-ul-li">CONTACT</li>
+          <li
+            class="header-ul-li flex items-center relative"
+            onclick="pagesClick()"
+          >
+            PAGES
+            <img
+              src="./img/58f8bcf70ed2bdaf7c128307.png"
+              class="w-[20px] h-[20px]"
+              alt=""
+            />
+            <div class="header--li--divHidden">
+              <p>topics listing</p>
+              <p>contact form</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="flex gap-2">
+        <img
+          class="header-div1--img"
+          alt="Image placeholder"
+          src="./img/585e4beacb11b227491c3399.png"
+        />
+        <img
+          src="./img/hamburger_4543046.png"
+          class="w-[48px] h-[48px] cursor-pointer block lg:hidden md:block"
+          alt=""
+          onclick="menuClick()"
+        />
+      </div>
+      <div class="header-div--nav">
+        <ul class="flex flex-col items-center gap-4 py-3">
+          <li>HOME</li>
+          <li>BROWSE TOPICS</li>
+          <li>HOW IT WORKS</li>
+          <li>FAQS</li>
+          <li>CONTACT</li>
+          <li>PAGES</li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- header -->
+    <!-- ---------------------------------- -->
+    <!-- navigation1 -->
+    <section class="navigatin1-section relative">
+      <div class="navigation1-divasli">
+        <p class="text-white lg:text-7xl md:text-6xl text-4xl font-bold">
+          Discover. Learn. Enjoy
+        </p>
+        <p class="text-2xl">platform for creatives around the world</p>
+        <div class="relative h-10 w-11/12 md:w-[500px] lg:w-[800px]">
+          <input
+            type="text"
+            class="peer h-full w-full rounded-[7px] bg-white border border-black bg-transparent px-3 py-2.5 pr-20 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-pink-500 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
+            placeholder="marketing"
+            required
+          />
+          <button
+            class="absolute right-1 top-1 z-10 select-none rounded bg-pink-500 py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none peer-placeholder-shown:pointer-events-none peer-placeholder-shown:bg-blue-gray-500 peer-placeholder-shown:shadow-none"
+            type="button"
+          >
+            search
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="navigation1-section2">
+      <div class="navigation1-section2-div1">
+        <div class="flex-col flex justify-evenly px-4 h-full">
+          <div class="flex items-center justify-between w-full h-9">
+            <div class="text-2xl font-bold text-black">Web Design</div>
+            <div
+              class="w-[30px] h-[30px] text-white bg-blue-500 flex items-center justify-center cursor-pointer rounded-lg"
+            >
+              25
+            </div>
+          </div>
+          <div class="text-black lg:text-2xl md:text-2xl text-lg">
+            When you search for free CSS templates, you will notice that
+            TemplateMo is one of the best websites.
+          </div>
+        </div>
+        <img
+          src="./img/undraw_Remote_design_team_re_urdx.png"
+          class="w-full h-[200px] rounded-b-2xl"
+          alt=""
+        />
+      </div>
+      <!-- ---------------------- -->
+      <div class="navigation1-section2-div2">
+        <img
+          src="./img/businesswoman-using-tablet-analysis.jpg"
+          class="lg:w-[636px] lg:h-[451px] md:w-[696px] md:h-[387px] w-full h-[284px] rounded-2xl absolute"
+          alt=""
+        />
+        <div
+          class="absolute flex w-full h-full flex-col justify-evenly px-6 bg-[#13547a] opacity-80 rounded-2xl"
+        >
+          <div class="flex flex-row w-full items-center justify-between">
+            <div class="text-white text-2xl">Finance</div>
+            <div
+              class="w-[30px] h-[30px] text-white bg-indigo-400 flex items-center justify-center cursor-pointer rounded-lg"
+            >
+              25
+            </div>
+          </div>
+          <div class="text-white lg:text-2xl md:text-2xl text-lg">
+            Topic Listing Template includes homepage, listing page, detail page,
+            and contact page. You can feel free to edit and adapt for your CMS
+            requirements.
+          </div>
+          <div>
+            <button
+              class="bg-[#80d0c7] text-black rounded-2xl font-bold px-6 py-2"
+            >
+              learn More
+            </button>
+          </div>
+
+          <div class="flex items-center text-white gap-3">
+            Share :
+            <div>
+              <button
+                class="bg-black w-[40px] h-[40px] rounded-full flex items-center justify-center"
+              >
+                <img
+                  src="./img/6-2-facebook-png-hd.png"
+                  class="w-[30px] h-[30px]"
+                  alt=""
+                />
+              </button>
+            </div>
+            <div>
+              <button
+                class="bg-black w-[40px] h-[40px] rounded-full flex items-center justify-center"
+              >
+                <img
+                  src="./img/25750-4-instagram-transparent-thumb.png"
+                  class="w-[30px] h-[30px]"
+                  alt=""
+                />
+              </button>
+            </div>
+            <div>
+              <button
+                class="bg-black w-[40px] h-[40px] rounded-full flex items-center justify-center"
+              >
+                <img
+                  src="./img/34996-2-twitter-transparent-thumb.png"
+                  class="w-[30px] h-[30px]"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- navigation1 -->
+    <!-- ----------------------------------- -->
+    <!-- navigation2 -->
+    <section class="w-full lg:h-[160vh] md:h-[250vh] h-[270vh] flex items-end">
+      <div
+        class="w-full lg:h-[80vh] md:h-[140vh] h-[170vh] md:mb-8 lg:mb-5 mb-4 flex flex-col gap-5 py-3 items-center justify-start"
+      >
+        <p class="text-4xl">Browse Topics</p>
+        <div class="flex lg:gap-5 md:gap-5 gap-2">
+          <button
+            class="border-b-2 p-2 lg:text-2xl md:text-xl border-black text-[#13547a]"
+          >
+            Design
+          </button>
+          <button
+            class="hover:border-b-2 p-2 lg:text-2xl md:text-xl border-black hover:text-[#13547a]"
+          >
+            marketing
+          </button>
+          <button
+            class="hover:border-b-2 p-2 lg:text-2xl md:text-xl border-black hover:text-[#13547a]"
+          >
+            finance
+          </button>
+          <button
+            class="hover:border-b-2 p-2 lg:text-2xl md:text-xl border-black hover:text-[#13547a]"
+          >
+            music
+          </button>
+          <button
+            class="hover:border-b-2 p-2 lg:text-2xl md:text-xl border-black hover:text-[#13547a]"
+          >
+            education
+          </button>
+        </div>
+        <div
+          class="grid lg:grid-cols-3 lg:grid-rows-1 md:grid-cols-2 md:grid-rows-2 grid-cols-1 grid-rows-3 gap-5"
+        >
+          <div
+            class="lg:w-[416px] lg:h-[391px] md:w-[300px] md:h-[400px] w-[400px] h-[350px] shadow-2xl hover:-translate-y-1 cursor-pointer bg-white rounded-2xl"
+          >
+            <div class="flex flex-col h-full items-start justify-between">
+              <div
+                class="flex flex-row w-full justify-between items-center px-4 py-3"
+              >
+                <div class="text-black text-2xl">Finance</div>
+                <div
+                  class="w-[30px] h-[30px] text-white bg-blue-400 flex items-center justify-center cursor-pointer rounded-lg"
+                >
+                  25
+                </div>
+              </div>
+              <p class="text-2xl px-4">
+                Topic Listing Template based on Bootstrap 5
+              </p>
+              <img
+                src="./img/undraw_Remote_design_team_re_urdx.png"
+                class="w-full h-[200px] rounded-b-2xl"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- ------------ -->
+          <div
+            class="lg:w-[416px] lg:h-[391px] md:w-[300px] md:h-[400px] w-[400px] h-[300px] shadow-2xl hover:-translate-y-1 cursor-pointer bg-white rounded-2xl"
+          >
+            <div class="flex flex-col h-full items-start justify-between">
+              <div
+                class="flex flex-row w-full justify-between items-center px-4 py-3"
+              >
+                <div class="text-black text-2xl">Graphic</div>
+                <div
+                  class="w-[30px] h-[30px] text-white bg-blue-400 flex items-center justify-center cursor-pointer rounded-lg"
+                >
+                  25
+                </div>
+              </div>
+              <p class="text-2xl px-4">
+                Lorem Ipsum dolor sit amet consectetur
+              </p>
+              <img
+                src="./img/undraw_Redesign_feedback_re_jvm0.png"
+                class="w-full h-[200px] rounded-b-2xl"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- --------------- -->
+          <div
+            class="lg:w-[416px] lg:h-[391px] md:w-[300px] md:h-[400px] w-[400px] h-[300px] shadow-2xl hover:-translate-y-1 cursor-pointer bg-white rounded-2xl"
+          >
+            <div class="flex flex-col h-full items-start justify-between">
+              <div
+                class="flex flex-row w-full justify-between items-center px-4 py-3"
+              >
+                <div class="text-black text-2xl">Logo Design</div>
+                <div
+                  class="w-[30px] h-[30px] text-white bg-blue-400 flex items-center justify-center cursor-pointer rounded-lg"
+                >
+                  25
+                </div>
+              </div>
+              <p class="text-2xl px-4">
+                Lorem Ipsum dolor sit amet consectetur
+              </p>
+              <img
+                src="./img/colleagues-working-cozy-office-medium-shot.png"
+                class="w-full h-[200px] rounded-b-2xl"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <!---------------------  -->
+      </div>
+    </section>
+    <!-- navigation2 -->
+    <!-- ------------------------------------ -->
+    <!-- -navigation3 -->
+    <section class="w-full bg-gray-500 h-[100vh] flex">
+      <div
+        class="bg-[#13547a] w-1/4 h-full lg:flex md:flex hidden items-center justify-center"
+      >
+        <div
+          class="h-[90%] w-[8px] rounded-2xl bg-[#80d0c7] relative flex items-center justify-center"
+        >
+          <div
+            class="w-[80px] h-[80px] rounded-full border-4 border-orange-500 bg-[#80d0c7] absolute top-0 flex items-center justify-center"
+          >
+            1
+          </div>
+          <div
+            class="w-[80px] h-[80px] rounded-full border-4 border-orange-500 bg-[#80d0c7] absolute top-72 flex items-center justify-center"
+          >
+            2
+          </div>
+          <div
+            class="w-[80px] h-[80px] rounded-full border-4 border-orange-500 bg-[#80d0c7] absolute bottom-0 flex items-center justify-center"
+          >
+            3
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-[#13547a] w-full h-full flex flex-col items-center justify-evenly px-5"
+      >
+        <div class="text-4xl text-white">How does it work?</div>
+        <div class="flex flex-col">
+          <div class="lg:text-3xl md:text-3xl text-2xl text-white">
+            Search your favourite topic
+          </div>
+          <div class="text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+            cumque magnam? Sequi, cupiditate quibusdam alias illum sed esse ad
+            dignissimos libero sunt, quisquam numquam aliquam? Voluptas,
+            accusamus omnis?
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <div class="lg:text-3xl md:text-3xl text-2xl text-white">
+            Bookmark & Keep it for yourself
+          </div>
+          <div class="text-white">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi
+            necessitatibus aperiam repudiandae nam omnis est vel quo, nihil
+            repellat quia velit error modi earum similique odit labore.
+            Doloremque, repudiandae?
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <div class="lg:text-3xl md:text-3xl text-2xl text-white">
+            Read & Enjoy
+          </div>
+          <div class="text-white">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi vero
+            quisquam, rem assumenda similique voluptas distinctio, iste est hic
+            eveniet debitis ut ducimus beatae id? Quam culpa deleniti officiis
+            autem?
+          </div>
+        </div>
+        <div class="flex flex-row items-center gap-3">
+          <div class="text-lg text-white">Want to learn more?</div>
+          <button
+            class="hover:bg-[#80d0c7] border-2 p-3 border-[#80d0c7] text-[#80d0c7] hover:text-white rounded-3xl"
+          >
+            check out youtube
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- -navigation3 -->
+    <!-- --------------------------------------- -->
+    <!-- navigation4 -->
+
+    <section class="w-full h-[100vh] flex lg:flex-row md:flex-col flex-col">
+      <div class="w-full h-full">
+        <img src="./img/faq_graphic.jpg" class="w-full h-full" alt="" />
+      </div>
+      <!-- ----------- -->
+      <div class="w-full h-full flex flex-col items-center justify-center">
+        <div id="accordion-collapse" data-accordion="collapse" class="w-11/12">
+          <h2 id="accordion-collapse-heading-1">
+            <button
+              type="button"
+              class="flex items-center justify-between w-full p-5 font-medium rounded-2xl text-left border border-b-0 border-gray-200 hover:bg-blue-400 dark:border-gray-700"
+              data-accordion-target="#accordion-collapse-body-1"
+              aria-controls="accordion-collapse-body-1"
+            >
+              <span class="text-black">What is topic listing?</span>
+            </button>
+          </h2>
+          <div
+            id="accordion-collapse-body-1"
+            class="hidden"
+            aria-labelledby="accordion-collapse-heading-1"
+          >
+            <div class="p-5">
+              <p class="mb-2 text-black">
+                Topic Listing is free Bootstrap 5 CSS template. You are not
+                allowed to redistribute this template on any other template
+                collection website without our permission. Please contact
+                TemplateMo for more detail. Thank you.
+              </p>
+            </div>
+          </div>
+          <h2 id="accordion-collapse-heading-2">
+            <button
+              type="button"
+              class="flex items-center justify-between w-full p-5 font-medium rounded-2xl text-left border hover:bg-blue-400 border-b-0 border-gray-200 dark:border-gray-700"
+              data-accordion-target="#accordion-collapse-body-2"
+              aria-controls="accordion-collapse-body-2"
+            >
+              <span class="text-black">how to find a topic?</span>
+            </button>
+          </h2>
+          <div
+            id="accordion-collapse-body-2"
+            class="hidden"
+            aria-labelledby="accordion-collapse-heading-2"
+          >
+            <div class="p-5">
+              <p class="mb-2 text-black">
+                You can search on Google with keywords such as templatemo
+                portfolio, templatemo one-page layouts, photography, digital
+                marketing, etc.
+              </p>
+            </div>
+          </div>
+          <h2 id="accordion-collapse-heading-3">
+            <button
+              type="button"
+              class="flex items-center justify-between w-full p-5 hover:bg-blue-400 font-medium text-left border rounded-2xl border-gray-200 dark:border-gray-700"
+              data-accordion-target="#accordion-collapse-body-3"
+              aria-controls="accordion-collapse-body-3"
+            >
+              <span class="text-black">does it need to paid?</span>
+            </button>
+          </h2>
+          <div
+            id="accordion-collapse-body-3"
+            class="hidden"
+            aria-labelledby="accordion-collapse-heading-3"
+          >
+            <div class="p-5">
+              <p class="mb-2 text-black">
+                You can modify any of this with custom CSS or overriding our
+                default variables. It's also worth noting that just about any
+                HTML can go within the .accordion-body, though the transition
+                does limit overflow.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- navigation4 -->
+    <!-- --------------------------------------- -->
+    <!-- navigation5 -->
+    <section
+      class="w-full lg:h-[60vh] md:h-[60vh] h-[90vh] lg:mt-0 md:mt-80 mt-20 bg-[#cdf2f8] flex flex-col items-center gap-3 justify-evenly"
+    >
+      <div class="text-5xl">Get in touch</div>
+      <div
+        class="flex lg:flex-row md:flex-row flex-col gap-10 lg:px-0 md:px-4 px-2"
+      >
+        <div class="flex flex-col gap-5">
+          <div class="text-3xl">Head office</div>
+          <div class="text-2xl">
+            Bay St &, Larkin St, San Francisco, CA 94109, United States
+          </div>
+          <hr />
+          <div>
+            Phone
+            <span class="text-[#13547a] hover:text-gray-800 cursor-pointer"
+              >305-240-9671</span
+            >
+          </div>
+          <div>
+            Email
+            <span class="text-[#13547a] hover:text-gray-800 cursor-pointer"
+              >info@company.com</span
+            >
+          </div>
+        </div>
+        <!-- -------------------- -->
+        <div class="flex flex-col gap-5">
+          <div class="text-3xl">Dubai office</div>
+          <div class="text-2xl">
+            Burj Park, Downtown Dubai, United Arab Emirates
+          </div>
+          <hr />
+          <div>
+            Phone
+            <span class="text-[#13547a] hover:text-gray-800 cursor-pointer"
+              >110-220-3400</span
+            >
+          </div>
+          <div>
+            Email
+            <span class="text-[#13547a] hover:text-gray-800 cursor-pointer"
+              >info@company.com</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- navigation5 -->
+    <!-- ---------------------------------------- -->
+    <!-- footer -->
+    <footer
+      class="w-full lg:h-[35vh] md:h-[35vh] h-[100vh] flex lg:flex-row md:flex-row flex-col items-start justify-between p-10"
+    >
+      <div class="text-4xl">Topic</div>
+      <div class="flex flex-col gap-3">
+        <p class="text-2xl">Resources</p>
+        <p class="text-[#13547a] hover:text-gray-800 cursor-pointer">Home</p>
+        <p class="text-[#13547a] hover:text-gray-800 cursor-pointer">
+          How it works
+        </p>
+        <p class="text-[#13547a] hover:text-gray-800 cursor-pointer">FAQs</p>
+        <p class="text-[#13547a] hover:text-gray-800 cursor-pointer">Contact</p>
+      </div>
+      <div class="flex flex-col gap-3">
+        <p class="text-2xl">Information</p>
+        <p class="text-[#13547a] hover:text-gray-800 cursor-pointer">
+          305-240-9671
+        </p>
+        <p class="text-[#13547a] hover:text-gray-800 cursor-pointer">
+          info@company.com
+        </p>
+      </div>
+      <div class="flex flex-col items-start gap-3">
+        <button class="bg-[#80d0c7] hover:bg-[#13547a] p-3 rounded-lg">
+          ENGLISH
+        </button>
+        <p>Copyright © 2048 Topic Listing Center. All rights reserved.</p>
+        <p>Design: TemplateMo</p>
+      </div>
+    </footer>
+
+    <!-- footer -->
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+  <script src="./axios.js"></script>
+  <script src="./java.js"></script>
+</html>

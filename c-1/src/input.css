@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+  @apply w-full h-[10vh] bg-[#80d0c7]  z-50 flex items-center fixed justify-between px-5;
+}
+/* ------------------- */
+.header-div1--img {
+  @apply relative inline-block  h-12 w-12 rounded-full object-cover object-center cursor-pointer;
+}
+/* ------------------- */
+.header-ul-li {
+  @apply cursor-pointer hover:text-gray-500 text-gray-600 font-bold;
+}
+/* ------------------- */
+.header--li--divHidden {
+  @apply w-[200px] h-[70px] bg-white border-2 p-2 absolute top-[55px] right-[10px] shadow-2xl text-gray-600  hidden text-center;
+}
+/* ------------------- */
+.navigatin1-section {
+  @apply w-full h-[80vh] bg-gradient-to-r from-[#13547a] to-[#80d0c7];
+}
+/* ------------------- */
+.header-div--nav {
+  @apply w-full h-[35vh] absolute text-white font-bold top-[10vh] left-0 bg-[#80d0c7] hidden;
+}
+/* ------------------- */
+.navigation1-divasli {
+  @apply flex flex-col items-center justify-center w-full h-[40vh] top-28 absolute  gap-5;
+}
+/* -------------------- */
+.navigation1-section2 {
+  @apply w-full lg:h-[70vh] md:h-[100vh] h-[90vh] rounded-b-[80px] bg-[#80d0c7] absolute flex lg:flex-row md:flex-col  flex-col items-center  justify-center gap-5;
+}
+/* ------------------------ */
+.navigation1-section2-div1 {
+  @apply bg-white lg:w-[400px] lg:h-[451px] md:w-[696px] md:h-[387px] w-11/12 h-[370px] lg:-mt-48 md:-mt-32 -mt-32 rounded-2xl flex flex-col justify-between hover:-translate-y-1 cursor-pointer;
+}
+/* --------------------------- */
+.navigation1-section2-div2 {
+  @apply lg:w-[636px] lg:h-[451px] md:w-[696px] md:h-[387px] w-11/12 h-[284px] lg:-mt-48 rounded-2xl relative hover:-translate-y-1 cursor-pointer;
+}
+
+/* ------------------------- */
